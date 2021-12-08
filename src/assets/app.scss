@@ -13,7 +13,9 @@
   text-overflow: ellipsis;
 }
 
-html, body, body #app {
+html,
+body,
+body #app {
   height: 100%;
   background-color: var(--background);
 }
@@ -153,8 +155,8 @@ body {
           background-color: var(--highlight-hover);
         }
       }
-	.navbar-menu {
-      background-color: inherit;
+      .navbar-menu {
+        background-color: inherit;
       }
     }
     .navbar-end {
@@ -162,6 +164,9 @@ body {
     }
   }
 
+  .navbar-selected {
+    background-color: var(--highlight-hover);
+  }
   #main-section {
     margin-bottom: 2rem;
     padding: 0;

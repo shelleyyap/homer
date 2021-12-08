@@ -189,7 +189,7 @@ export default {
         }
       } catch (error) {
         console.log(error);
-        config = this.handleErrors("⚠️ Error loading configuration", error);
+        config = this.handleErrors("⚠️ Error loading configuration", `Click <a href="/">here</a> to go back.`);
       }
       this.config = merge(defaults, config);
       this.services = this.config.services;
